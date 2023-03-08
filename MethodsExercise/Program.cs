@@ -4,7 +4,7 @@
     {
         static void Main(string[] args)
         {
-            //Exercise 1 method UserName
+            //Exercise 1 calling method UserName
 
             
             UserName();
@@ -33,14 +33,15 @@
             //Console.WriteLine($"The remainder of {x} divided by {y} is: {modResult}");
 
             // Exercise 2 operators methods challenge!
-            int additionRes = Add(1, 2, 3, 4, 5);
-            Console.WriteLine(additionRes);
-            int subtractionRes = Subtract(1, 2, 3, 4, 5);
-            Console.WriteLine(subtractionRes);
-            int productRes = Product(1, 2, 3, 4, 5);
-            Console.WriteLine(productRes);
-            decimal quotientRes = Divide(1, 2, 3, 4, 5);
-            Console.WriteLine(quotientRes);
+            
+            Console.WriteLine($"The sum of the values in the list is: {Add(1,2,3,4,5)}");
+
+            Console.WriteLine($"The difference of the first value and the other values in the list is: {Subtract(1, 2, 3, 4, 5)}");
+
+            Console.WriteLine($"The product of the values in the list is: {Product(1, 2, 3, 4, 5)}");
+
+            Console.WriteLine($"The quotient of the first value divided by the other values in the list is: {Divide(1, 2, 3, 4, 5)}");
+
 
         }
 
